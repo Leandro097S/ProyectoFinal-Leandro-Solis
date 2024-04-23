@@ -1,37 +1,38 @@
 body{
-
     background-color: #344b53;
 }
-nav{
+.navbar{
      
     font-family: Arial;
     width: 100%;
-    height: 100px;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-  
 }
 a{
-color:rgb(217, 219, 194);
-margin-right: 20px;
+    
+    color:rgb(217, 219, 194);
+    margin-left: 100px;
+    margin-right: 100px;
+    
+
 
 }
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     
     }
-    
-    li {
-    margin-right: 100px;
-    }
-    
-    
-
 h1{
+
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+    font-size:larger;
+    color:lightyellow;
+}
+h2{
+    padding-top: 2.5%;
+    margin-left: 2.5%;
     font-size:larger;
     color:lightyellow;
 }
@@ -42,8 +43,6 @@ p{
     color: yellowgreen;
 }
 .imagenes{
-    
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,3 +52,73 @@ p{
     margin-left: 230px;
 }
 
+.container{
+   margin: 80px auto;
+   width: 90%;
+   height: 400px;
+   max-width:500px;
+   outline:50px solid;
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+
+}
+.proyectos{
+    margin: 100px auto;
+   width: 100%;
+   height: 500px;
+   max-width:1000px;
+   outline:10px solid;
+   outline-color: #020e16;
+}
+.elemento1{
+    color:rgb(3, 3, 3);
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.elemento2{
+    color:rgb(3, 3, 3);
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.elemento3{
+    color:rgb(3, 3, 3);
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.elemento4{
+    color:rgb(3, 3, 3);
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.elemento-1{
+    background-color:darkgreen;
+   
+    
+}
+.elemento-2{
+    background-color:rgb(64, 209, 64);
+    
+}
+.elemento-3{
+    background-color:rgb(94, 94, 34);
+    
+}
+.elemento-4{
+    background-color:rgb(236, 51, 4);
+   
+}
+.dropdown-menu{
+    background-color: red;
+    color:rgb(217, 219, 194);
+margin-right: 20px;
+}
+.bg-dark{
+    background-color: #020e16 !important
+  
+}
