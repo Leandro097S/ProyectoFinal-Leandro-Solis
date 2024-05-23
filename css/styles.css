@@ -1,14 +1,33 @@
 body{
-    background-color: #344b53;}
+    background-color: #39855b;
+}
 form{
+    
     padding-top: 3%;
     margin: 5px auto;
     width: 100%;
     height: 300px;
     max-width:500px;
     outline:2px solid;
-    outline-color: #020e16;
+    outline-color: #b4c1ca;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    color: #fff;
    
+}
+.background-container{
+    width: 100%;
+    height: 100vh;
+    
+}
+.card.container{
+    width: 45ren;
+    height:45ren;
+    border: 2px solid #fafafa10;
+}
+.glass-effect{
+    background: #fafafa10;
+    backdrop-filter: blur(0.4ren);
 }
 .boton{
     text-align: center;
@@ -63,9 +82,14 @@ h3{
 }
 
 p{
+    font-size: 150%;
     text-align: center;
-    font-family: Arial;
-    color: yellowgreen;
+    font-family: Georgia;
+    font-weight: bold;
+    font-style:italic;
+
+
+    color: rgb(243, 243, 233);
 }
 .imagenes{
     display: flex;
